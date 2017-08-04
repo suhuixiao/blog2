@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>身份证号码验证</title>
+</head>
+<style type="text/css">
+	.content{
+		width: 80%;
+		text-align: center;
+		margin-top: 4rem
+	}
+	.text{
+		height: 1.6rem;
+		line-height: 1.6rem
+	}
+	.button{
+		height: 2rem;
+		line-height: 2rem;
+		background: #FFFFFF;
+		border-radius: 0.2rem;
+		border: 1px solid #24e022;
+		color: #24e022
+	}
+</style>
+<body>
+	<div class="content">
+		<input class="text" id="idNumber"  maxlength="18" placeholder="请填写身份证号" type="text" name="">
+		<input class="button" type="button" name="" value="验证" onclick="checkIdNumber()">
+	</div>
+	<script type="text/javascript" src="id.js"></script>
+</body>
+</html>
